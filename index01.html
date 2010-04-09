@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<script src='http://chesstempo.com/js/pgnyui.js' type='text/javascript'>
+</script>
+<script src='http://chesstempo.com/js/pgnviewer.js' type='text/javascript'>
+</script>
+<link href='http://chesstempo.com/css/board-min.css' rel='stylesheet' type='text/css'> </link>
+<style type="text/css"/>  
+.ct-black-square  
+{  
+    background-color: yellow;  
+}  
+  
+.ct-white-square  
+{  
+    background-color: red;  
+}
+.ct-board-border  
+{   
+    //border:10px solid black;  
+}  
+</style>   
+    <title>Fianchetto</title>
+</head>
+<body>
+    <div id="demo-container"></div>  
+        <div id="demo-moves"></div>
+<script>  
+new PgnViewer(  
+  { boardName: "demo",  
+    pgnFile: 'pgn/demo.pgn',  
+    pieceSet: 'leipzig',   
+    pieceSize: 46  
+  }  
+);  
+</script> 
+</script>  </div>
+</div>
+</body>
+</html>
